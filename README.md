@@ -7,7 +7,7 @@ The app allows users to enter a movie review and classifies it as Positive or Ne
 
 The interface is built with Streamlit, making the model easy to interact with through a simple web UI.
 
-🚀 Features
+# 🚀 Features
 
 Deep Learning model based on Simple RNN
 
@@ -19,7 +19,7 @@ Clean and interactive Streamlit web interface
 
 Displays both sentiment label and prediction confidence score
 
-🧠 Model Overview
+# 🧠 Model Overview
 
 Architecture: Simple Recurrent Neural Network (RNN)
 
@@ -35,7 +35,7 @@ The model was trained beforehand and saved as:
 
 simple_rnn_imdb.h5
 
-🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 Python
 
@@ -52,7 +52,7 @@ IMDB Dataset (Keras)
 ├── simple_rnn_imdb.h5         # Pre-trained RNN model
 ├── README.md                  # Project documentation
 
-⚙️ Installation & Setup
+# ⚙️ Installation & Setup
 
 Clone the repository
 
@@ -70,7 +70,7 @@ Install dependencies
 
 pip install tensorflow numpy streamlit
 
-▶️ How to Run the App
+# ▶️ How to Run the App
 
 Run the Streamlit application with:
 
@@ -79,7 +79,7 @@ streamlit run app.py
 
 Then open the local URL shown in your terminal (usually http://localhost:8501).
 
-🧪 How It Works
+# 🧪 How It Works
 
 The user enters a movie review.
 
@@ -105,7 +105,7 @@ The sentiment and prediction score are displayed.
 Sentiment: Positive
 Prediction Score: 0.87
 
-📌 Future Improvements
+# 📌 Future Improvements
 
 Replace Simple RNN with LSTM or GRU
 
@@ -115,7 +115,7 @@ Improve text preprocessing (handling punctuation, OOV words)
 
 Deploy the app on Streamlit Cloud or Hugging Face Spaces
 
-👤 Author
+# 👤 Author
 
 Jeisson Morales
 Industrial Engineer | Data Science & AI Enthusiast
